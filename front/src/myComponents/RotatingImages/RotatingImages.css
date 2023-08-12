@@ -1,0 +1,38 @@
+.text{
+    height: 50vh;
+    width: 100%;
+    background-color: green;
+}
+.textgrid{
+    margin-top: 2rem;
+    width: 115rem;
+    height: 20rem;
+    background-color: aqua;
+    position: relative;
+    left: 38px;
+    /* to hide overflow */
+    overflow: hidden; 
+
+    
+}
+
+.textgrid .firstText{
+
+    font-size: 5rem; 
+    /* to make text go outside of parent container */
+    white-space: nowrap;
+}
+
+.textgrid .secondText{
+
+    font-size: 5rem; 
+    /* to make text go outside of parent container */
+    white-space: nowrap;
+}
+
+.textgrid .thirdText{
+
+    font-size: 5rem; 
+    /* to make text go outside of parent container */
+    white-space: nowrap;
+}

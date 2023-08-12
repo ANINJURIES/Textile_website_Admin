@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    background-image: linear-gradient(to right, rgba(86, 203, 249,1), #817E9F);
+    padding-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.Navbar .title {
+    margin-top: 0.8rem;
+    margin-left: 15rem;
+    margin-right: 50rem;
+}
+
+.navComp {
+    display: flex;
+    float: right;
+    font-size: 1.2rem;
+
+
+}
+
+.navComp li {
+    margin-top: 1rem;
+    margin: 1rem 5rem 0 5rem;
+}
+
+.navComp li:hover {
+    transform: scale(1.2);
+    color: white;
+    transition: 0.5s;
+}
+
+.LanderContainer {
+    /* display: flex; */
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.LanderContainer #welcome{
+    position: absolute;
+    top:20rem;
+    left:50rem;
+    color: antiquewhite;
+    font-size: 5rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.LanderContainer #Firstline {
+    font-size: 2rem;
+    margin: 2rem auto;
+    color: whitesmoke;
+    width: 80vw;
+
+}
+
+.LanderContainer #Secondline {
+    font-size: 1rem;
+    color: whitesmoke;
+
+
+
+}
+
+.LanderContainer #Thirdline {
+    font-size: 5rem;
+    margin: 1rem auto;
+    color: #E3B23C
+    
+}
+
+.LanderContainer #learnMore{
+    color: white;
+    position: absolute;
+    top: 80vh;
+    left: 12rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 0.2px solid white ;
+    border-radius: 1rem;
+}
+
+.LanderContainer p{
+    color:antiquewhite;
+    width: 20rem;
+    justify-content: center;
+    font-size: 0.8rem;
+    position: absolute;
+    top:60vh;
+    left: 5vw;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    width: 100%;
+    height: 115%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+

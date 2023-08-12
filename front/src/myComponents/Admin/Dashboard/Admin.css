@@ -1,0 +1,95 @@
+.adminNav {
+    /* background-color: aqua;   */
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    border-color: grey;
+    width: 60rem;
+    position: absolute;
+    left: 30rem;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 2rem;
+    text-align: center;
+
+
+}
+
+.adminNav svg {
+    position: relative;
+    left: 1rem;
+    top:0.2rem
+}
+
+.adminNav svg:hover{
+    transform: scale(1.3);
+    transition:250ms;
+}
+
+.adminNav .textadmin {
+
+    position: relative;
+    left: 40%;
+    top: 0.30rem;
+
+}
+
+.buttons {
+    margin-top: 5rem;
+    padding: 0;
+    background-color: grey;
+    border-radius: 3rem;
+    width: 20rem;
+    height: 52rem;
+    padding-top: 5rem;
+    display: inline-block;
+
+}
+
+.buttons .btn {
+
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 1.2rem;
+    border-radius: 1rem;
+
+
+}
+
+.buttons .btn:hover{
+    transform: scale(1.1);
+    transition: 250ms;  
+
+}
+
+.buttons svg {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+/* .innersection{
+    width: 80%;
+    display: inline-flex;
+    height: 100rem;
+} */
+
+.buttons #home{
+    position: absolute;
+    top: 50rem;
+    right: 98rem;
+    background-color: black;
+}
+
+.buttons #home:hover{
+    transform: scale(1.2);
+    transition: 250ms;
+}
+
+.buttons #home:active{
+    transform: translateY(0.2rem);
+}
